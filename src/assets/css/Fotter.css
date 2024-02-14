@@ -1,0 +1,154 @@
+.fotter{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    background-color: #00204a;
+    flex-wrap: wrap;
+    position: relative;
+}
+.fotter div{
+    margin:1rem 0;
+}
+
+.fotter div:nth-child(1) h1{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+.fotter div:nth-child(1) ul li{
+    list-style-type: none;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.fotter div:nth-child(1) ul li:hover{
+    color: #00bbf0;
+}
+.fotter div:nth-child(1) ul li svg{   
+    margin-right: 0.5rem;
+}
+
+.social{
+    font-size: 2rem;
+}
+.social a{
+    color: #fff;
+    margin: 0 0.4rem;
+    transition: color 0.3s;
+}
+.social a:hover{
+    color: #00bbf0;
+}
+
+.fotter div:nth-child(2) {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.fotter div:nth-child(2) h1{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+
+.fotter div:nth-child(2) p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.fotter div:nth-child(3) h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+.fotter div:nth-child(3) .nav1{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fotter div:nth-child(3) .nav1 li{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.fotter div:nth-child(3) .nav1 li a{
+    font-size:1.5rem;
+    margin: 0;
+}
+
+.fotter div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    max-width:25rem;
+    width: 100%;
+}
+
+.fotter div:nth-child(4) h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+
+.fotter div:nth-child(4) input{
+    background-color: transparent;
+    border: none;
+    border-bottom:0.2rem solid #fff;
+    outline: none;
+    color:#fff;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin: 0rem 0;
+}
+
+.fotter div:nth-child(4) input::placeholder{
+    color: #fff;
+}
+
+.fotter div:nth-child(4) button{
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    padding: 0.8rem 0;
+    text-transform: capitalize;
+    font-weight: 400;   
+    border-radius: 0.5rem;
+    background-color: #00bbf0;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+}
+
+.fotter div:nth-child(4) button:hover{
+    background-color: #03abd9d7;
+}
+.Copyright{
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background-color: #022654;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:614px) {
+    .Copyright{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Copyright{
+        font-size: 1.3rem;
+    }
+}

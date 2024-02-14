@@ -1,0 +1,50 @@
+[
+    {   
+        "id" :1,
+        "Image" : "/src/assets/images/team-1.jpg",
+        "Name" : "Joseph Brown",
+        "Work" : "Marketing Head",
+        "facebook" :"https://www.facebook.com/",
+        "twitter" : "https://twitter.com/",
+        "linkedin" : "https://bd.linkedin.com/",
+        "instagram" : "https://www.instagram.com/",
+        "youtube" :"https://www.youtube.com/"
+
+    },
+    {   
+        "id" :2,
+        "Image" : "/src/assets/images/team-2.jpg",
+        "Name" : "Nancy White",
+        "Work" : "Marketing Head",
+        "facebook" :"https://www.facebook.com/",
+        "twitter" : "https://twitter.com/",
+        "linkedin" : "https://bd.linkedin.com/",
+        "instagram" : "https://www.instagram.com/",
+        "youtube" :"https://www.youtube.com/"
+
+    },
+    {   
+        "id" :3,
+        "Image" : "/src/assets/images/team-3.jpg",
+        "Name" : "Earl Martinez",
+        "Work" : "Marketing Head",
+        "facebook" :"https://www.facebook.com/",
+        "twitter" : "https://twitter.com/",
+        "linkedin" : "https://bd.linkedin.com/",
+        "instagram" : "https://www.instagram.com/",
+        "youtube" :"https://www.youtube.com/"
+
+    },
+    {   
+        "id" :4,
+        "Image" : "/src/assets/images/team-4.jpg",
+        "Name" : "Josephine Allard",
+        "Work" : "Marketing Head",
+        "facebook" :"https://www.facebook.com/",
+        "twitter" : "https://twitter.com/",
+        "linkedin" : "https://bd.linkedin.com/",
+        "instagram" : "https://www.instagram.com/",
+        "youtube" :"https://www.youtube.com/"
+
+    }
+]

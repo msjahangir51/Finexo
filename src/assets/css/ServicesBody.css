@@ -1,0 +1,117 @@
+.ServicesBody{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ServicesBody h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.ServicesBody span{
+    color: #0b98bf;
+}
+
+.ServicesBody .desc{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+.card img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+.card h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+.card P{
+    font-size: 1.5rem;
+}
+
+.btn1{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s;
+}
+.btn1:hover{
+    color: #0b98bf;
+}
+
+.btn{
+    background-color: var(--nativecolor);
+    padding: 0.9rem 4.5rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 3rem;
+    transition: background-color 0.3s;
+    border-radius: 0.2rem;
+}
+
+.btn:hover{
+    background-color: #0b98bf;
+}
+
+@media screen and (max-width:1026px) {
+    .ServicesBody h1{
+        font-size: 3rem;
+    }
+    .ServicesBody .desc{
+        font-size: 1.4rem;
+        width: 70%;
+        text-align: center;
+    }
+    
+    .ServicesBody .cards .card h1 {
+        font-size: 2rem;
+    
+}
+    .card p {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    
+}
+.btn1{
+    font-size: 1.9rem;
+}
+
+.ServicesBody .cards .card h1{
+    font-size: 1.9rem;
+}
+
+.card{
+    width: 30rem;
+    margin: 3rem 1rem;
+}
+.card img{
+    width: 9rem;
+    height: 9rem;
+}
+}
+

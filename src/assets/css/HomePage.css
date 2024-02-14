@@ -1,0 +1,149 @@
+:root{
+    --nativecolor: #00bbf0;
+    --BGColor:#1a106a;
+    --color: #fff;
+}
+.HomePage{
+    background: url(../images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:100%;
+    background-position: top 10rem;
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+
+}
+.Home-text,.Home-img{
+    flex-basis: 50%;
+}
+.Home-text h1{
+    font-size: 4.5rem;
+    line-height:5.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.Home-text p{
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.Home-img{
+    width: 90%;
+    margin-left: 4rem;
+    height: 100%
+}
+.Home-img img{
+    transform: translateY(-3rem);
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    animation: animation 2s infinite alternate-reverse;
+}
+
+@keyframes animation {
+    0%{
+        transform: translateY(-5rem);
+        
+    }100%{
+        transform: translateY(0rem);
+
+    }
+}
+.btn{
+    background-color: var(--nativecolor);
+    padding: 0.9rem 4.5rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 3rem;
+    transition: background-color 0.3s;
+    border-radius: 0.2rem;
+}
+
+.btn:hover{
+    background-color: #0b98bf;
+}
+
+/* responsive  */
+@media screen and (max-width:1236px) {
+    .Home-text p{
+        font-size: 1.5rem;
+    }
+
+    .Home-text h1{
+        font-size: 4.3rem;
+        line-height: 4.5rem;
+    }
+    /* .HomePage{
+        flex-direction: column;
+        height: auto;
+        background-size: cover;
+        padding: 10rem 6rem;
+    }    */
+}
+@media screen and (max-width:1020px) {
+    .HomePage{
+        height: 110vh;
+    }
+}
+@media screen and (max-width:946px) {
+    .Home-text h1 {
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    .HomePage{
+        background-size: cover;
+        background-position: 100%;
+    }
+    .Home-text p {
+        font-size: 1.1rem;
+    }
+    .btn{
+        padding: 0.7rem 4rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .HomePage{
+        flex-direction: column;
+        height: auto;
+        padding: 10rem 7rem;
+    }
+    .Home-img{
+        margin-top: 5rem;
+    }
+    .btn{
+        padding: 0.4rem 3rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .HomePage{
+        padding: 10rem 5rem;
+    }
+    
+    .Home-text h1 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .Home-img{
+        margin-top: 7rem;
+    }
+    .btn{
+        padding: 0.4rem 3rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:460px)  {
+    .HomePage{
+        padding: 10rem 3rem;
+    }
+}

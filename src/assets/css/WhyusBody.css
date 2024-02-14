@@ -1,0 +1,69 @@
+.whyChooseus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16rem;
+    padding-bottom: 5rem;
+    height: auto;
+}
+.whyChooseus h1{
+    font-size: 3.4rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.whyChooseus h1 span{
+    color: #00bbf0;
+}
+.whyChooseus .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.whyChooseus .cards .card{
+    width: 100%;
+    max-width: 90%;
+    margin: 3rem 0;
+}
+.whyChooseus .cards .card h1{
+    font-size:  2rem;
+}
+
+.whyChooseus .cards .card .imgbox{
+    width: 12rem;
+    height: 12rem;
+    border: 5px solid #00204a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whyChooseus .cards .card .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2rem;
+}
+@media screen and (max-width:864px) {
+    .whyChooseus{
+        padding-top: 12rem;
+    }
+    .whyChooseus h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:636px) {
+    .whyChooseus h1{
+        font-size: 2.5rem;
+    }
+    .whyChooseus{
+        padding-top: 8rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .whyChooseus .cards .card{
+        padding: 0;
+    }
+}

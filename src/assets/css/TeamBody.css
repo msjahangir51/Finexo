@@ -1,0 +1,137 @@
+.teamDetalis{
+    padding-top: 10rem;
+    padding-bottom:5rem;
+    width: 100%;
+    height: 100vh;
+    background-color: #00204a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.teamDetalis .section-heading{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.teamDetalis h1 span{
+    color: #00bbf0;
+}
+
+.teamDetalis .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.teamDetalis .row .box{
+    flex: 0 0 23%;
+    max-width: 23%;
+    width: 100%;
+    /* border: 0.3rem solid #00bbf0; */
+    display: flex;
+    box-shadow: 0 0 1rem #0c3a77;
+    background-color: #00275A;
+    flex-direction: column;
+    width: 14rem;
+    margin: 1rem;
+    padding: 2rem 0;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.teamDetalis .row .box .box-img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 0.4rem;
+}
+
+.teamDetalis .row .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.teamDetalis .row .box h1{
+    font-size: 2.2rem;
+    color: #00bbf0;
+    margin: 1rem 0 ;
+    font-weight: 300;
+}
+
+.teamDetalis .row .box p{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.teamDetalis .row .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.teamDetalis .row .social a{
+    color: #fff;
+    margin: 0 0.8rem;
+    font-size: 2.3rem;
+    transition: color 0.3s;
+}
+.teamDetalis .row .social a:hover{
+    color: #00bbf0;
+}
+
+@media screen and (max-width:1076px) {
+    .teamDetalis{
+        height: 100%;
+    }
+    .teamDetalis .row{
+        flex-wrap: wrap;
+    }
+    .teamDetalis .row .box{
+        flex: 0 0 45%;
+        max-width:45%;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:924px) {
+    .teamDetalis{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .teamDetalis .row .box{
+        flex: 0 0 40%;
+        max-width:40%;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:652px) {
+    
+    .teamDetalis{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .teamDetalis .row{
+        margin: 0 3rem;
+    }
+    .teamDetalis .row .box{
+        flex: 0 0 100%;
+        max-width:100%;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .teamDetalis{
+        padding-left:1rem;
+        padding-right: 1rem;
+    }
+}

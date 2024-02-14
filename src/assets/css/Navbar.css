@@ -1,0 +1,106 @@
+:root{
+    --nativecolor: #00bbf0;
+    --BGColor:#1a106a;
+    --color: #fff;
+}
+.Navbar{
+    width: 100%;
+    background-color: var(--BGColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    color: var(--color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.logo a{
+    font-size: 2.6rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+.Navbar a{
+    transition: color 0.3s;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav li a{
+    margin: 0 1.5rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1 rem;
+}
+.nav a{
+    color: var(--color);
+}
+.nav a:hover{
+    color: var(--nativecolor);
+}
+.nav li a.active{
+    color: #00bbf0;
+}
+.bars{
+    display: none;
+}
+
+/* responsive  */
+
+@media screen and (max-width:926px) {
+    .nav li a{
+        font-size: 1.5rem;
+    }
+    .login-search a{
+        font-size: 1.5rem;
+    }
+
+    .logo a{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .Navbar{
+        padding: 1rem 2rem;
+    }
+    .nav li a{
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width:638px) {
+    .bars{
+        display: block;
+    }
+    .nav{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        transform: translateY(5rem);
+        width: 100%;
+        background-color: #1a106a;
+        height: 0;
+        overflow: hidden;
+        right: 0;
+        row-gap: 2rem   ;
+        transition: height 0.4s ease-out;
+    }
+
+    .active {
+        height: 70vh;
+        overflow: visible;
+    }
+}
+
