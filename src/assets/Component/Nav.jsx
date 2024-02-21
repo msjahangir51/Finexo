@@ -17,7 +17,7 @@ function Nav() {
             <li><NavLink to="/whyus">Why us</NavLink></li>
             <li><NavLink to="/team">Team</NavLink></li>
 
-            <li><a href='#'><FaUser size={14} /> LOGIN</a></li>
+            {/* <li><a href='#'><FaUser size={14} /> LOGIN</a></li> */}
         </ul>
 
         <div onClick={()=> SetNav(!nav)} className='bars'>
