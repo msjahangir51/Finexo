@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../css/HomePage.css";
 import homeIMG  from "../images/slider-img.png";
 import Nav from "../Component/Nav"
@@ -9,6 +9,9 @@ import TeamBody from "../Component/TeamBody"
 import Footer from '../Component/Footer';
 
 function Home() {
+  useEffect(()=>{
+    document.title = "Home";
+  })
   return (
     <div>
         <Nav/>
