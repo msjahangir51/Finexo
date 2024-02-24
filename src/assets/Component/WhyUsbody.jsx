@@ -1,5 +1,5 @@
 import React from 'react'
-import Alldocument from "../requres.json";
+import Alldocument from "../../../public/requres.json";
 import "../css/WhyusBody.css"
 
 function WhyUsbody() {

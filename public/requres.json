@@ -1,25 +1,25 @@
 [
     {
         "id" : "1",
-        "img":"/./src/assets/images/w1.png",
+        "img":"./images/w1.png",
         "tittle":"Expert Management",
         "desc" :"Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus"
     },
     {
         "id" : "2",
-        "img":"/./src/assets/images/w2.png",
+        "img":"./images/w2.png",
         "tittle":"Secure Investment",
         "desc" :"Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus"
     },
     {
         "id" : "3",
-        "img":"/./src/assets/images/w3.png",
+        "img":"./images/w3.png",
         "tittle":"Instant Trading",
         "desc" :"Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus"
     },
     {
         "id" : "4",
-        "img":"/./src/assets/images/w4.png",
+        "img":"./images/w4.png",
         "tittle":"Happy Customers",
         "desc" :"Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus"
     }

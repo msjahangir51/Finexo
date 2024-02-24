@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook,FaTwitter,FaInstagram,FaYoutube,FaLinkedinIn } from "react-icons/fa";
 import "../css/TeamBody.css";
-import TeamDetails from "../TeamDetals.json";
+import TeamDetails from "../../../public/TeamDetals.json";
 function TeamBody() {
   return (
     <div className='teamDetalis'>
